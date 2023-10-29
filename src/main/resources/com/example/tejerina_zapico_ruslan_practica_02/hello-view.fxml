@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="703.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.tejerina_zapico_ruslan_practica_02.MenuController">
+  <children>
+    <Label layoutX="95.0" layoutY="185.0" prefHeight="35.0" prefWidth="50.0" text="Título" />
+    <Label layoutX="95.0" layoutY="238.0" prefHeight="35.0" prefWidth="50.0" text="Fecha" />
+    <Label layoutX="95.0" layoutY="297.0" text="Género" />
+    <Label layoutX="93.0" layoutY="343.0" text="Director" />
+    <TextField fx:id="tf_titulo" layoutX="170.0" layoutY="190.0" />
+    <TextField fx:id="tf_fecha" layoutX="169.0" layoutY="243.0" />
+    <TextField fx:id="tf_genero" layoutX="170.0" layoutY="293.0" />
+    <TextField fx:id="tf_director" layoutX="169.0" layoutY="339.0" />
+    <ListView fx:id="listview_peliculas" layoutX="397.0" layoutY="116.0" prefHeight="330.0" prefWidth="275.0" />
+    <Button fx:id="button_insertar" layoutX="196.0" layoutY="392.0" mnemonicParsing="false" onAction="#imprimirPeliculas" prefHeight="35.0" prefWidth="95.0" text="Importar" />
+    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="206.0" layoutY="44.0" prefHeight="42.0" prefWidth="226.0" text="IMDB" textFill="#e71111">
+      <font>
+        <Font name="System Bold" size="14.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>
